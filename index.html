@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
 
     <title>WebStudio</title>
@@ -19,26 +20,26 @@
 <body>
     <header>
         <div class="container-nav">
-        <!--Navigation-->
-            <nav>
+            <!--Navigation-->
+            <nav class="navigation">
                 <a class="header-logo link" href="./index.html" title="logo" target="_blank">
                     Web<span class="logo-second">Studio</span>
                 </a>
                 <ul class="header-menu list">
-                    <li><a class="header-menu-item link current" href="./index.html">
+                    <li class="header-menu-item"><a class="header-menu-text link current" href="./index.html">
                             <p>Студия</p>
                         </a></li>
-                    <li><a class="header-menu-item link" href="./portfolio.html">
+                    <li class="header-menu-item"><a class="header-menu-text link" href="./portfolio.html">
                             <p>Портфолио</p>
                         </a></li>
-                    <li><a class="header-menu-item link" href="#">
+                    <li class="header-menu-item"><a class="header-menu-text link" href="#">
                             <p>Контакты</p>
                         </a></li>
                 </ul>
             </nav>
             <ul class="header-contacts list">
-                <li><a class="header-contacts-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="header-contacts-item link" href="tell:+380961111111">+38 096 111 11 11</a></li>
+                <li class="header-contacts-item"><a class="header-contacts-item link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="header-contacts-item"><a class="header-contacts-item link" href="tell:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -51,7 +52,9 @@
                 <h1 class="main-title">
                     Эффективные решения для вашего бизнеса
                 </h1>
-                <button type="button" class="btn">Заказать услугу</button>
+                <div class="button-wrapper">
+                    <button type="button" class="btn">Заказать услугу</button>
+                </div>
             </div>
         </section>
 
@@ -93,7 +96,7 @@
                 </ul>
             </div>
         </section>
-        
+
         <!--Forth section-->
         <section class="team">
             <div class="container-team">
