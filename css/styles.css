@@ -155,9 +155,12 @@ body {
 /* ---first section---*/
 .first-section{
   background-color: var(--color-dark-2f303a);
+  background-image: url("../images./background.jpg");
+  background-repeat: no-repeat;
+  /* background-position: ;
+  background-size: ; */
+  background-color: rgba(47, 48, 58, 0.4);
   padding: 200px 0;
-  /* padding-top: 200px;
-  padding-bottom: 200px; */
 }
 
 .main-title{
